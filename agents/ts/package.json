@@ -1,0 +1,30 @@
+{
+  "name": "learn-claude-code-agents-ts",
+  "version": "1.0.0",
+  "description": "TypeScript implementation of Claude Code agents",
+  "type": "module",
+  "scripts": {
+    "s01": "tsx s01_agent_loop.ts",
+    "s02": "tsx s02_tool_use.ts",
+    "s03": "tsx s03_todo_write.ts",
+    "s04": "tsx s04_subagent.ts",
+    "s05": "tsx s05_skill_loading.ts",
+    "s06": "tsx s06_context_compact.ts",
+    "s07": "tsx s07_task_system.ts",
+    "s08": "tsx s08_background_tasks.ts",
+    "s09": "tsx s09_agent_teams.ts",
+    "s10": "tsx s10_team_protocols.ts",
+    "s11": "tsx s11_autonomous_agents.ts",
+    "s12": "tsx s12_worktree_task_isolation.ts",
+    "full": "tsx s_full.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
